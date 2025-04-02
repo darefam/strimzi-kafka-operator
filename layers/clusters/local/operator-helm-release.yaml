@@ -4,6 +4,12 @@ metadata:
   name: strimzi-kafka
 
 ---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: icoe-kafka
+
+---
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
