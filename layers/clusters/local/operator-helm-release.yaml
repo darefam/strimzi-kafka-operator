@@ -25,6 +25,8 @@ kind: HelmRelease
 metadata:
   name: strimzi-kafka-operator
   namespace: strimzi-kafka
+  annotations:
+    kustomize.toolkit.fluxcd.io/prune: disabled
 spec:
   targetNamespace: strimzi-kafka
   interval: 5m
