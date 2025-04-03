@@ -27,6 +27,7 @@ metadata:
   namespace: icoe-kafka
 spec:
   interval: 5m
+  releaseName: strimzi-kafka-operator
   targetNamespace: icoe-kafka
   chart:
     spec:
